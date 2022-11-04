@@ -1,0 +1,77 @@
+    /***** Base styles*****/
+    
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #2b2b2b;
+    }
+    /****Grid****/
+    
+    .full-width {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: auto;
+    }
+    
+    .half-width {
+        width: 600px;
+        overflow: auto;
+        float: left;
+    }
+    
+    .third-width {
+        width: 400px;
+        overflow: auto;
+        float: left;
+    }
+    /***ABOUT***/
+    
+    #about .full-width {
+        padding: 80px 0;
+    }
+    
+    #about h2 {
+        font-family: 'Lora', serif;
+        font-size: 36px;
+        padding-left: 50px;
+    }
+    
+    #about p {
+        font-size: 21px;
+        color: #7F7F7F;
+        line-height: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    /***WORK***/
+    
+    #work .full-width {
+        background-color: #F9CEB7;
+        text-align: center;
+        padding: 115px 0;
+    }
+    
+    #work img {
+        padding-bottom: 30px;
+    }
+    
+    #work h3 {
+        font-size: 24px;
+        line-height: 32px;
+        width: 190px;
+        margin: 0 auto;
+    }
+    
+    #work p {
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        line-height: 30px;
+        color: #2b2b2b;
+        padding: 0 50px;
+    }
+    /***CONTACT***/
+    
+    #contact .full-width {
+        background-color: #EBEBEB;
+        padding: 110px 0;
+    }
+    /***stopped at img, need to add this to the html. I don't see it though...***/
